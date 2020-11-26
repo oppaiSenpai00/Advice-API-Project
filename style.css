@@ -1,0 +1,207 @@
+.img {
+    width: 300px;
+}
+
+.img-one{
+    position: absolute;
+    top: 100px;
+    width: 400px;
+    opacity: 0.9;
+    animation-name: flowerAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flowerAnimation {
+    0% {
+        top: 100px;
+    }
+    50% {
+        top: 120px;
+    }
+    100%{
+        top: 100px;
+    }
+}
+
+.img-two {
+    position: absolute;
+    left: 1050px;
+}
+
+.img-three {
+    position: absolute;
+    top: 380px;
+    left: 550px;
+}
+
+.button {
+    position: absolute;
+    top: 130px;
+    left: 500px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(62, 0, 179);
+    color: rgb(228, 228, 228);
+    width: 400px;
+    font-family: 'PT Sans';
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(22, 22, 22);
+    cursor: pointer;
+}
+
+.container {
+    margin: -10px;
+}
+
+.navbar {
+    margin: 0;
+    background-color: rgb(32, 32, 32);
+    height: 60px;
+    display: flex;
+    color: white;
+}
+
+.navbar .logo {
+    color: rgb(184, 184, 184);
+    font-weight: bold;
+    font-family: 'PT Sans';
+    letter-spacing: 3px;
+    position: absolute;
+    top: 16px;
+    left: 10px;
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+    0% {
+        color: rgb(184, 184, 184);
+    }
+
+    10% {
+        color: white;
+    }
+
+    15% {
+        color: rgb(184, 184, 184);
+    }
+
+    20% {
+        color: white;
+    }
+    45% {
+        color: rgb(184, 184, 184);
+    }
+
+    60% {
+        color: white;
+    }
+
+    65% {
+        color: rgb(184, 184, 184);
+    }
+
+    68% {
+        color: white;
+    }
+
+    75% {
+        color: rgb(184, 184, 184);
+    }
+
+    90% {
+        color: white;
+    }
+
+    95% {
+        color: rgb(184, 184, 184);
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+.navbar .linkOne {
+    position: absolute;
+    top: 16px;   
+    left: 600px;
+    color: rgb(184, 184, 184);
+    text-decoration: none;
+    font-family: 'PT Sans';
+    font-weight: bold;
+}
+
+.navbar .linkTwo:hover {
+    color: white;
+}
+
+.navbar .linkTwo {
+    position: absolute;
+    top: 16px;
+    left: 700px;  
+    color: rgb(184, 184, 184);
+    text-decoration: none;
+    font-family: 'PT Sans';
+    font-weight: bold;
+
+}
+
+
+.navbar .active {
+    color: white;
+}
+
+
+.footer {
+    position: absolute;
+    top: 580px;
+    left: 625px;
+    font-size: 20px;
+    opacity: 0.7;
+    letter-spacing: 3px;
+    font-family: 'PT Sans';
+}
+
+
+.advices {
+    position: absolute;
+    text-align: center;
+    top: 240px;
+    height: auto;
+    letter-spacing: 2px;
+    width: 600px;
+    font-size: 25px;
+    font-family: 'PT Sans';
+    font-weight: bold;
+    left: 410px;
+}
+
+
+.sidebarr {
+    position: absolute;
+    top: 350px;
+    left: 950px;
+    width: 300px;
+}
+
+.sidebox {
+    font-family: 'PT Sans';
+    font-size: 40px;
+    color: rgb(61, 61, 61);
+}
+
+span {
+    color: rgb(53, 0, 247);
+    font-weight: bolder;
+}
